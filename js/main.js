@@ -9,7 +9,7 @@ function checkNumber() {
 document.getElementById("res").innerHTML=message;
 }
 
-function billclaculartor(){
+function billcalc(){
     var units=gocumentGetElementBYId("units").value;
     var min_amount=50;
     var total_amount=0;
@@ -27,5 +27,5 @@ function billclaculartor(){
         
         total_amount=min_amount + amount;
         message="total bill amount:"+total_amount;
-        document.getElementById("res").innerHTML=message;5
+        document.getElementById("res").innerHTML=message;
 }
